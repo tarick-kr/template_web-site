@@ -1,0 +1,9 @@
+extends template/page
+
+block variables
+	- var title = 'Главная страница';
+	- var pageClass = 'home-page';
+
+block content
+	include modules/top-banner/top-banner__home-page
+	include pages/index/main
